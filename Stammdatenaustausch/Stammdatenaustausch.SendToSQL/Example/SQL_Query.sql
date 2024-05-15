@@ -50,4 +50,16 @@ END
 GO
 
 
+GRANT EXECUTE ON [dbo].[InsertNamen] TO [ACTDIR\BTS_ESB_InpSvcUser];
+
+
+USE Stammdaten;
+GO
+CREATE USER [ACTDIR\BTS_ESB_InpSvcUser] FOR LOGIN [ACTDIR\BTS_ESB_InpSvcUser];
+GO
+EXEC sp_addrolemember N'db_datareader', N'ACTDIR\BTS_ESB_InpSvcUser';
+EXEC sp_addrolemember N'db_datawriter', N'ACTDIR\BTS_ESB_InpSvcUser';
+GO
+
+
 
