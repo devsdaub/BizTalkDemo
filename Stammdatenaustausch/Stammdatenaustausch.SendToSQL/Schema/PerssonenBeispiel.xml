@@ -1,0 +1,12 @@
+<ns0:Personen xmlns:ns0="http://Stammdatenaustausch.Schemas.Personen">
+	<ns0:Person>
+		<ns0:Name>Name_0</ns0:Name>
+		<ns0:Vorname>Vorname_0</ns0:Vorname>
+		<ns0:Alter>125</ns0:Alter>
+	</ns0:Person>
+	<ns0:Person>
+		<ns0:Name>Name_0</ns0:Name>
+		<ns0:Vorname>Vorname_0</ns0:Vorname>
+		<ns0:Alter>125</ns0:Alter>
+	</ns0:Person>
+</ns0:Personen>

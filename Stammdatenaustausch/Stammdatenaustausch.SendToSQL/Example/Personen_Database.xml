@@ -1,0 +1,7 @@
+<ns0:Personen xmlns:ns0="http://Stammdatenaustausch.Schemas.Personen">
+	<ns0:Person>
+		<ns0:Name>Müller</ns0:Name>
+		<ns0:Vorname>Olaf</ns0:Vorname>
+		<ns0:Alter>25</ns0:Alter>
+	</ns0:Person>
+</ns0:Personen>
